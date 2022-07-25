@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
 });
-
+git;
 const secret = "Thisisourlittlesecretssssss.";
 
 userSchema.plugin(encrypt, {
